@@ -6,9 +6,15 @@
       "@/components/*": [
         "components/*"
       ],
-      "@/hooks/*": ["hooks/*"],
-      "@/store/*":["store/*"],
-      "@public/*":["public/projects/*"]
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/store/*": [
+        "store/*"
+      ],
+      "@public/*": [
+        "public/projects/*"
+      ]
     },
     "target": "es5",
     "lib": [
@@ -26,7 +32,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "noImplicitAny": true,
     "incremental": true
   },
